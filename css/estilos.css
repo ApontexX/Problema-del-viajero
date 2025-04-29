@@ -1,0 +1,90 @@
+/* estilo.css */
+
+/* estilo.css */
+
+/* Fondo general */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #6dd5fa, #2980b9);
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Header o título principal */
+h1, h2, h3 {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* Formularios */
+form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+/* Inputs y selects */
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0 16px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Botones */
+button {
+    background-color: #0048ff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0031b3;
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Encabezados de tablas */
+th {
+    background-color: #0048ff;
+    color: white;
+}
+
+/* Resaltado de celdas específicas (tu resaltado amarillo sigue igual) */
+.highlight,
+.resaltado {
+    background-color: yellow !important;
+    color: black;
+}
+
+/* Mensajes o advertencias */
+p {
+    background: rgba(255,255,255,0.7);
+    padding: 10px;
+    border-radius: 5px;
+}
