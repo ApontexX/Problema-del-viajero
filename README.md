@@ -1,7 +1,7 @@
 # Problema-del-viajero
 Un proyecto web para optimizar rutas de viaje, con generación de matrices aleatorias, cálculo de la mejor ruta y gestión de datos.
 
-##🚀 Características
+🚀 ##Características
 ✅ Generación de matrices aleatorias según rangos definidos por el usuario.
 ✅ Algoritmo de optimización basado en búsqueda local aleatoria (con tiempo límite ajustable).
 ✅ Cálculo de la mejor ruta entre ciudades (origen y destino seleccionables).
